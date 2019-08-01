@@ -15,6 +15,15 @@ class App extends Component{
         // var child1 = React.createElement('li',null,'hshbdxhs');
         // var child2 = React.createElement('li',null,'hgdjjjjjj');
         // var root = React.createElement('ul',{className:'my-list'},child1,child2)
-    }
+
+// class App extends Component{
+//     render(){
+//         return (
+//         <div>
+//         hello world
+//         </div>
+//         )
+//     }
+}
 }
 export default App;
