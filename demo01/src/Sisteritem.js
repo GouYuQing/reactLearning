@@ -7,6 +7,12 @@ class Sisieritem extends Component {
         super(props)
         this.handleClick = this.handleClick.bind(this)
     }
+    componentWillReceiveProps(){
+        console.log('组件有生命周期斌却有子组件子组件接受了props')
+    }
+    componentWillUnmount(){
+        console.log('组件被删除之前执行')
+    }
     render() { 
         return ( 
             <li onClick={this.handleClick}>

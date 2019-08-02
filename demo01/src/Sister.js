@@ -10,7 +10,30 @@ class Sister extends Component {
             list: ['抹茶蛋糕', '红豆冰沙']
         }
     }
+    componentWillMount(){
+        console.log('组件将要挂载到页面的时刻')
+    }
+    componentDidMount(){
+        console.log('组件挂载完成的时刻')
+    }
+    shouldComponentUpdate(){
+        console.log('1在组件更新前执行');
+        //false不执行render
+        return true;
+    }
+    componentWillUpdate(){
+        console.log('2在组件即将更新前执行');
+        return true;
+    }
+    componentDidUpdate(){
+        console.log('组件更新完成时执行');
+        return true;
+    }
+    componentWillReceiveProps(){
+        console.log('有子组件时使用，但是这个没有只有Sisteritem有')
+    }
     render() {
+        console.log('挂在中。。');
         return (
             <Fragment>
 
