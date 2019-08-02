@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import PropTypes from 'prop-types'
+//校验传递的值
 class Sisieritem extends Component {
     state = {  }
     constructor(props){
@@ -8,7 +9,8 @@ class Sisieritem extends Component {
     }
     render() { 
         return ( 
-            <li onClick={this.handleClick}>{this.props.content}</li>
+            <li onClick={this.handleClick}>
+            {this.props.avname}点什么-{this.props.content}</li>
          );
     }
     handleClick(){
@@ -16,5 +18,13 @@ class Sisieritem extends Component {
         this.props.deleteItem(this.props.index)
     }
 }
- 
+Sisieritem.propTypes={
+    avname:PropTypes.string.isRequired,
+    content:PropTypes.string,
+    index:PropTypes.number,
+    deleteItem:PropTypes.func
+}
+Sisieritem.defaultProps={
+    avname:'我'
+}
 export default Sisieritem;

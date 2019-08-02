@@ -16,23 +16,30 @@ class Sister extends Component {
 
                 <div>
                     {/* 数据绑定  事件绑定*/}
-                    <input className='input' value={this.state.inputValue} onChange={this.inputChage.bind(this)} />
+                    <input 
+                    className='input' 
+                    value={this.state.inputValue} 
+                    onChange={this.inputChage.bind(this)}
+                    ref = {(input)=>{this.input = input}}
+                    />
                     <button type="button" onClick={this.addList.bind(this)}>增加</button>
                 </div>
-                <ul>
+                <ul ref={(ul)=>{this.ul = ul}}>
                     {/* <li>奶茶</li>
                        <li>冰淇淋</li> */}
                     {
                         this.state.list.map((item, index) => {
                             return (
-                               <div>
-                                   <Sisieritem 
-                                   key={index+item}
-                                   content={item}
-                                   index={index}
-                                   deleteItem = {this.deleteItem.bind(this)}
-                                   />
-                               </div>
+                                <div>
+                                    <Sisieritem
+                                        // avname='我'
+                                        key={index+item}
+                                        content={item}
+                                        index={index}
+                                       
+                                        deleteItem={this.deleteItem.bind(this)}
+                                    />
+                                </div>
 
                             )
 
@@ -48,7 +55,8 @@ class Sister extends Component {
         // console.log(e.target.value);
         // this.state.inputValue = e.target.value;无法改变
         this.setState({
-            inputValue: e.target.value
+            // inputValue: e.target.value
+            inputValue:this.input.value
         })
     }
     addList() {
@@ -56,6 +64,9 @@ class Sister extends Component {
             //扩展运算符
             list: [...this.state.list, this.state.inputValue],
             inputValue: ''
+        },()=>{
+            console.log(this.ul.querySelectorAll('li').length)
+
         })
     }
     deleteItem(index) {
