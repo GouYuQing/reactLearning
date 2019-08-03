@@ -10,3 +10,9 @@
 *单向数据流*
 *propTypes校验传递的值*
 *组件生命周期学习*
+*用axios实现请求远程数据*
+*安装npm install --save axios 在componentDidMount周期里面请求*
+*使用easy-mock模拟接口数据*
+*用css3实现react动画*
+*keyframes动画*
+*第三方动画组件react-transition-group使用 CSSTransition 和 TransitionGroup*

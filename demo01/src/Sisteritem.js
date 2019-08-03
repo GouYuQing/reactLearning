@@ -13,6 +13,14 @@ class Sisieritem extends Component {
     componentWillUnmount(){
         console.log('组件被删除之前执行')
     }
+    shouldComponentUpdate(nextProps,nextState){
+        if(nextProps.content!==this.props.content){
+            return true;
+        }else{
+            return false;
+
+        }
+    }
     render() { 
         return ( 
             <li onClick={this.handleClick}>

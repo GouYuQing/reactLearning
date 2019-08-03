@@ -1,6 +1,9 @@
 import React, { Component, Fragment } from 'react'
+import axois from 'axios'
 import './style.css'
 import Sisieritem from './Sisteritem'
+import CssTest from './CssTest'
+import {CSSTransition,TransitionGroup} from 'react-transition-group'
 //增加fragment不影响flex布局
 class Sister extends Component {
     constructor(props) {
@@ -15,6 +18,9 @@ class Sister extends Component {
     }
     componentDidMount(){
         console.log('组件挂载完成的时刻')
+        axois.post('https://web-api.juejin.im/v3/web/wbbr/bgeda')
+        .then((res)=>{console.log('axios获取的数据成功'+JSON.stringify(res))})
+        .catch((error)=>{console.log('axios获取数据失败'+error)})
     }
     shouldComponentUpdate(){
         console.log('1在组件更新前执行');
@@ -48,11 +54,19 @@ class Sister extends Component {
                     <button type="button" onClick={this.addList.bind(this)}>增加</button>
                 </div>
                 <ul ref={(ul)=>{this.ul = ul}}>
+                    <TransitionGroup>
                     {/* <li>奶茶</li>
                        <li>冰淇淋</li> */}
                     {
                         this.state.list.map((item, index) => {
                             return (
+                                <CSSTransition
+                                timeout={2000}
+                                classNames='boss-text'
+                                unmountOnExit
+                                appear={true}
+                                key={index+item}
+                                >
                                 <div>
                                     <Sisieritem
                                         // avname='我'
@@ -63,14 +77,16 @@ class Sister extends Component {
                                         deleteItem={this.deleteItem.bind(this)}
                                     />
                                 </div>
+                                </CSSTransition>
 
                             )
 
                         })
                     }
+                    </TransitionGroup>
                 </ul>
 
-
+                    <CssTest/>
             </Fragment>
         )
     }
