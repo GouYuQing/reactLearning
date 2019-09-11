@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 import store from './store'
 // import {CHANGE_INPUT,ADD_ITEM,DELETE_ITEM} from './store/actionTypes'
-import {changeInputAction,addItemAction,deleteItemAction} from './store/actionCreators'
+import {getMyListAction,changeInputAction,addItemAction,deleteItemAction} from './store/actionCreators'
 import TodoListUI from './store/TodoListUI'
-
+// import axios from 'axios'
 // const data=[
 //     'hello',
 //     'world',
@@ -44,6 +44,22 @@ class TodoList extends Component {
         const action = changeInputAction(e.target.value)
         store.dispatch(action);
     }
+    //生命周期
+    componentDidMount(){
+        // axios.get('https://www.easy-mock.com/mock/5d44f5cf8aa85155233ce36d/example/getList')
+        // .then(res=>{
+        //     // console.log(res);
+        //     const data = res.data;
+        //     const action = getListAction(data);
+        //     store.dispatch(action)
+
+        // })
+        // const action = getTodoList();
+        // store.dispatch(action)
+        const action =getMyListAction()
+        store.dispatch(action)
+        // console.log(action)
+    }
     //改变组件的状态
     storeChange(){
         this.setState(store.getState())
@@ -62,6 +78,7 @@ class TodoList extends Component {
         const action = deleteItemAction(index);
         store.dispatch(action);
     }
+
 }
  
 export default TodoList;
