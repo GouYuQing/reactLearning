@@ -1,0 +1,1 @@
+export default ()=><div>hello my component</div>

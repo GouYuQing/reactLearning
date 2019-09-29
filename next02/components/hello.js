@@ -1,0 +1,1 @@
+export default({children})=><div><button>{children}</button></div>
