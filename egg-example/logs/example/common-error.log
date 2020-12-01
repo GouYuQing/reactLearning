@@ -1,0 +1,133 @@
+2020-02-03 21:29:30,183 ERROR 12484 [-/127.0.0.1/-/3ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12484
+hostname: DESKTOP-2UJQTND
+
+2020-02-03 21:52:58,183 ERROR 13476 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13476
+hostname: DESKTOP-2UJQTND
+
+2020-02-03 21:53:01,037 ERROR 13476 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13476
+hostname: DESKTOP-2UJQTND
+
+2020-02-03 21:53:01,937 ERROR 13476 [-/127.0.0.1/-/2ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13476
+hostname: DESKTOP-2UJQTND
+
+2020-02-03 21:53:02,758 ERROR 13476 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13476
+hostname: DESKTOP-2UJQTND
+
+2020-02-03 21:53:03,015 ERROR 13476 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13476
+hostname: DESKTOP-2UJQTND
+
+2020-02-03 21:53:03,220 ERROR 13476 [-/127.0.0.1/-/0ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\code\jsWorkSpace\reactLearning\egg-example\app\controller\home.js:9:5)
+    at async D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13476
+hostname: DESKTOP-2UJQTND
+

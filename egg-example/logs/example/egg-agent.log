@@ -1,0 +1,20 @@
+2020-02-03 21:29:18,120 INFO 6012 [egg:logger] init all loggers with options: {"dir":"D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\logs\\example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-02-03 21:29:18,134 INFO 6012 [egg:core] dump config after load, 11ms
+2020-02-03 21:29:18,276 INFO 6012 [egg-watcher] Start watching: ["D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\config","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks_proxy","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app.js"]
+2020-02-03 21:29:18,276 INFO 6012 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app"
+2020-02-03 21:29:18,277 INFO 6012 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\config"
+2020-02-03 21:29:18,277 INFO 6012 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks"
+2020-02-03 21:29:18,277 INFO 6012 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks_proxy"
+2020-02-03 21:29:18,277 INFO 6012 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app.js"
+2020-02-03 21:29:18,277 INFO 6012 [egg-watcher:agent] watcher start success
+2020-02-03 21:29:18,310 INFO 6012 [egg:core] dump config after ready, 20ms
+2020-02-03 21:52:52,716 INFO 12400 [egg:logger] init all loggers with options: {"dir":"D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\logs\\example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-02-03 21:52:52,729 INFO 12400 [egg:core] dump config after load, 10ms
+2020-02-03 21:52:52,760 INFO 12400 [egg-watcher] Start watching: ["D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\config","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks_proxy","D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app.js"]
+2020-02-03 21:52:52,760 INFO 12400 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app"
+2020-02-03 21:52:52,760 INFO 12400 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\config"
+2020-02-03 21:52:52,760 INFO 12400 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks"
+2020-02-03 21:52:52,760 INFO 12400 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\mocks_proxy"
+2020-02-03 21:52:52,760 INFO 12400 [egg-watcher] Start watching: "D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\app.js"
+2020-02-03 21:52:52,761 INFO 12400 [egg-watcher:agent] watcher start success
+2020-02-03 21:52:52,786 INFO 12400 [egg:core] dump config after ready, 19ms

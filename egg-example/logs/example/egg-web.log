@@ -1,0 +1,28 @@
+2020-02-03 21:29:19,065 INFO 12484 [egg:logger] init all loggers with options: {"dir":"D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\logs\\example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-03 21:29:19,084 INFO 12484 [egg-multipart] stream mode enable
+2020-02-03 21:29:19,135 INFO 12484 [egg-static] starting static serve /public/ -> D:\code\jsWorkSpace\reactLearning\egg-example\app\public
+2020-02-03 21:29:19,137 INFO 12484 [egg-security] use csrf middleware
+2020-02-03 21:29:19,137 INFO 12484 [egg-security] use methodnoallow middleware
+2020-02-03 21:29:19,138 INFO 12484 [egg-security] use noopen middleware
+2020-02-03 21:29:19,138 INFO 12484 [egg-security] use nosniff middleware
+2020-02-03 21:29:19,138 INFO 12484 [egg-security] use xssProtection middleware
+2020-02-03 21:29:19,139 INFO 12484 [egg-security] use xframe middleware
+2020-02-03 21:29:19,139 INFO 12484 [egg-security] use dta middleware
+2020-02-03 21:29:19,139 INFO 12484 [egg-security] compose 7 middlewares into one security middleware
+2020-02-03 21:29:19,154 INFO 12484 [egg:core] dump config after load, 12ms
+2020-02-03 21:29:19,162 INFO 12484 [egg-watcher:application] watcher start success
+2020-02-03 21:29:19,180 INFO 12484 [egg:core] dump config after ready, 16ms
+2020-02-03 21:52:53,488 INFO 13476 [egg:logger] init all loggers with options: {"dir":"D:\\code\\jsWorkSpace\\reactLearning\\egg-example\\logs\\example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-03 21:52:53,508 INFO 13476 [egg-multipart] stream mode enable
+2020-02-03 21:52:53,555 INFO 13476 [egg-static] starting static serve /public/ -> D:\code\jsWorkSpace\reactLearning\egg-example\app\public
+2020-02-03 21:52:53,557 INFO 13476 [egg-security] use csrf middleware
+2020-02-03 21:52:53,557 INFO 13476 [egg-security] use methodnoallow middleware
+2020-02-03 21:52:53,558 INFO 13476 [egg-security] use noopen middleware
+2020-02-03 21:52:53,558 INFO 13476 [egg-security] use nosniff middleware
+2020-02-03 21:52:53,558 INFO 13476 [egg-security] use xssProtection middleware
+2020-02-03 21:52:53,559 INFO 13476 [egg-security] use xframe middleware
+2020-02-03 21:52:53,559 INFO 13476 [egg-security] use dta middleware
+2020-02-03 21:52:53,559 INFO 13476 [egg-security] compose 7 middlewares into one security middleware
+2020-02-03 21:52:53,576 INFO 13476 [egg:core] dump config after load, 14ms
+2020-02-03 21:52:53,585 INFO 13476 [egg-watcher:application] watcher start success
+2020-02-03 21:52:53,602 INFO 13476 [egg:core] dump config after ready, 16ms

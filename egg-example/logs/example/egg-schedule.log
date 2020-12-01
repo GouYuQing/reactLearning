@@ -1,0 +1,12 @@
+2020-02-03 21:29:19,084 INFO 12484 [egg-schedule]: register schedule D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-02-03 21:29:19,084 INFO 12484 [egg-schedule]: register schedule D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-02-03 21:29:19,084 INFO 12484 [egg-schedule]: register schedule D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-02-03 21:29:19,184 INFO 6012 [Timer] D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 25240817ms at 2020-02-04 04:30:00.001
+2020-02-03 21:29:19,185 INFO 6012 [Timer] D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 9040815ms at 2020-02-04 00:00:00.000
+2020-02-03 21:29:19,185 INFO 6012 [Timer] D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 9041815ms at 2020-02-04 00:00:01.000
+2020-02-03 21:52:53,606 INFO 12400 [Timer] D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 23826395ms at 2020-02-04 04:30:00.001
+2020-02-03 21:52:53,606 INFO 12400 [Timer] D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 7626394ms at 2020-02-04 00:00:00.000
+2020-02-03 21:52:53,607 INFO 12400 [Timer] D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 7627394ms at 2020-02-04 00:00:01.001
+2020-02-03 21:52:53,508 INFO 13476 [egg-schedule]: register schedule D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-02-03 21:52:53,508 INFO 13476 [egg-schedule]: register schedule D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-02-03 21:52:53,508 INFO 13476 [egg-schedule]: register schedule D:\code\jsWorkSpace\reactLearning\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
